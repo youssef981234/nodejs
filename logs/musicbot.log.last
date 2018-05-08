@@ -1,0 +1,142 @@
+[332.713365555] 2018-05-08 07:05:21,515 - INFO - launcher: Starting sanity checks
+[333.213329315] 2018-05-08 07:05:21,515 - INFO - launcher: Checking for Python 3.5+
+[498.165369034] 2018-05-08 07:05:21,680 - INFO - launcher: Checking console encoding
+[498.165369034] 2018-05-08 07:05:21,680 - INFO - launcher: Setting console encoding to UTF-8
+[498.681783676] 2018-05-08 07:05:21,681 - INFO - launcher: Ensuring we're in the right environment
+[536.378622055] 2018-05-08 07:05:21,718 - INFO - launcher: Adding local bins/ folder to path
+[1263.979911804] 2018-05-08 07:05:22,446 - INFO - launcher: Required checks passed.
+[1263.979911804] 2018-05-08 07:05:22,446 - INFO - launcher: Optional checks passed.
+[1323.072671890] 2018-05-08 07:05:22,505 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[10.3333547115325928] 2018-05-08 07:05:31,515 - WARNING - musicbot.config | In config.py::MainThread(2592), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[10.3333547115325928] 2018-05-08 07:05:31,515 - INFO - musicbot.config | In config.py::MainThread(2592), line 123 in run_checks: Using i18n: config/i18n/en.json
+[10.6174404621124268] 2018-05-08 07:05:31,800 - DEBUG - musicbot.json | In json.py::MainThread(2592), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[10.8854260444641113] 2018-05-08 07:05:32,068 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 227 in _setup_logging: Set logging level to INFO
+[10.8859260082244873] 2018-05-08 07:05:32,068 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 84 in __init__: Starting MusicBot 1.9.7
+[10.8864274024963379] 2018-05-08 07:05:32,069 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[15.8392474651336670] 2018-05-08 07:05:37,021 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 1074 in on_ready: Connection established, ready to go.
+[15.8392474651336670] 2018-05-08 07:05:37,021 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 339 in _cache_app_info: Caching app info
+[15.8862545490264893] 2018-05-08 07:05:37,068 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[15.8877537250518799] 2018-05-08 07:05:37,070 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 905 in _scheck_server_permissions: Checking server permissions
+[15.8877537250518799] 2018-05-08 07:05:37,070 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[15.8877537250518799] 2018-05-08 07:05:37,070 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 913 in _scheck_configs: Validating config
+[15.8877537250518799] 2018-05-08 07:05:37,070 - DEBUG - musicbot.config | In config.py::MainThread(2592), line 212 in async_validate: Validating options...
+[15.8877537250518799] 2018-05-08 07:05:37,070 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 916 in _scheck_configs: Validating permissions config
+[15.8882541656494141] 2018-05-08 07:05:37,070 - DEBUG - musicbot.permissions | In permissions.py::MainThread(2592), line 64 in async_validate: Validating permissions...
+[15.8882541656494141] 2018-05-08 07:05:37,070 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1091 in on_ready: Connected: 442456775375978506/SGG bot#7913
+[15.8887541294097900] 2018-05-08 07:05:37,071 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1099 in on_ready: Owner:     169423295089868800/SGG PRO BEAST#1383
+
+[15.8892538547515869] 2018-05-08 07:05:37,071 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1102 in on_ready: Server List:
+[15.8892538547515869] 2018-05-08 07:05:37,071 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1105 in on_ready:  - SGG Community Discord
+[15.8897542953491211] 2018-05-08 07:05:37,072 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1138 in on_ready: Bound to text channels:
+[15.8897542953491211] 2018-05-08 07:05:37,072 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1139 in <listcomp>:  - SGG Community Discord/music
+[15.8907542228698730] 2018-05-08 07:05:37,073 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1164 in on_ready: Autojoining voice chanels:
+[15.8907542228698730] 2018-05-08 07:05:37,073 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1165 in <listcomp>:  - SGG Community Discord/Music 1 🎵
+[16.0552749633789062] 2018-05-08 07:05:37,237 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 281 in _join_startup_channels: Attempting to join SGG Community Discord/Music 1 🎵
+[16.0562758445739746] 2018-05-08 07:05:37,238 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 452 in get_voice_client: Connection attempt 1 to Music 1 🎵
+[16.0562758445739746] 2018-05-08 07:05:37,238 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[16.0567753314971924] 2018-05-08 07:05:37,239 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[16.0567753314971924] 2018-05-08 07:05:37,239 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[16.0892791748046875] 2018-05-08 07:05:37,271 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 442456775375978506/SGG bot#7913 on SGG Community Discord/Music 1 🎵 -> [JOIN, CONNECT]
+[16.0892791748046875] 2018-05-08 07:05:37,271 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2949 in on_voice_state_update: 442456775375978506/SGG bot#7913 has joined SGG Community Discord/Music 1 🎵
+[16.0897793769836426] 2018-05-08 07:05:37,272 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[16.1142823696136475] 2018-05-08 07:05:37,296 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[16.3754568099975586] 2018-05-08 07:05:37,558 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[16.3754568099975586] 2018-05-08 07:05:37,558 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 478 in get_voice_client: Connected in 0.3s
+[16.3759567737579346] 2018-05-08 07:05:37,558 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 479 in get_voice_client: Connected to SGG Community Discord/Music 1 🎵
+[16.4889659881591797] 2018-05-08 07:05:37,671 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 849 in deserialize_queue: Deserializing queue for 405127192767627264
+[17.5740654468536377] 2018-05-08 07:05:38,756 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 570 in get_player: Created player via deserialization for server 405127192767627264 with 1 entries
+[17.5740654468536377] 2018-05-08 07:05:38,756 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 297 in _join_startup_channels: Joined SGG Community Discord/Music 1 🎵
+[17.5750548839569092] 2018-05-08 07:05:38,757 - VOICEDEBUG - musicbot.player | In player.py::MainThread(2592), line 373 in websocket_check: Starting websocket check loop for SGG Community Discord
+[17.5750548839569092] 2018-05-08 07:05:38,757 - DEBUG - musicbot.entry | In entry.py::MainThread(2592), line 54 in get_ready_future: Created future for audio_cache\youtube-67sDhNyuzLU-Childish_Gambino_-_3005_Official_Video_HD.webm
+[17.5756044387817383] 2018-05-08 07:05:38,758 - DEBUG - musicbot.player | In player.py::MainThread(2592), line 269 in get_mean_volume: Calculating mean volume of audio_cache\youtube-67sDhNyuzLU-Childish_Gambino_-_3005_Official_Video_HD.webm
+[32.1134176254272461] 2018-05-08 07:05:53,296 - DEBUG - musicbot.player | In player.py::MainThread(2592), line 290 in get_mean_volume: Calculated mean volume as -9.7
+[32.1134176254272461] 2018-05-08 07:05:53,296 - FFMPEG - musicbot.player | In player.py::MainThread(2592), line 330 in _play: Creating player with options: -nostdin -af "volume=-0.0dB" audio_cache\youtube-67sDhNyuzLU-Childish_Gambino_-_3005_Official_Video_HD.webm
+[32.1209187507629395] 2018-05-08 07:05:53,303 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 256 in _autopause: Initial autopause in empty channel
+[32.1224186420440674] 2018-05-08 07:05:53,305 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 825 in serialize_queue: Serializing queue for 405127192767627264
+[32.1234190464019775] 2018-05-08 07:05:53,306 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 868 in write_current_song: Writing current song for 405127192767627264
+[38.4485375881195068] 2018-05-08 07:05:59,631 - DEBUG - musicbot.player | In player.py::MainThread(2592), line 383 in websocket_check: Voice websocket for "SGG Community Discord" is CLOSED, reconnecting
+[38.4485375881195068] 2018-05-08 07:05:59,631 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 487 in reconnect_voice_client: Reconnecting voice client on "SGG Community Discord" to "Music 1 🎵"
+[38.4485375881195068] 2018-05-08 07:05:59,631 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[38.4490370750427246] 2018-05-08 07:05:59,631 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[38.4863746166229248] 2018-05-08 07:05:59,668 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 442456775375978506/SGG bot#7913 on SGG Community Discord/Music 1 🎵 -> [DISCONNECT]
+[38.5547840595245361] 2018-05-08 07:05:59,737 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[38.5547840595245361] 2018-05-08 07:05:59,737 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 452 in get_voice_client: Connection attempt 1 to Music 1 🎵
+[38.5552353858947754] 2018-05-08 07:05:59,737 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[38.5552353858947754] 2018-05-08 07:05:59,737 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[38.5552353858947754] 2018-05-08 07:05:59,737 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[38.6007204055786133] 2018-05-08 07:05:59,783 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 442456775375978506/SGG bot#7913 on SGG Community Discord/Music 1 🎵 -> [JOIN, CONNECT]
+[38.6007204055786133] 2018-05-08 07:05:59,783 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2949 in on_voice_state_update: 442456775375978506/SGG bot#7913 has joined SGG Community Discord/Music 1 🎵
+[38.6011805534362793] 2018-05-08 07:05:59,783 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[38.6091847419738770] 2018-05-08 07:05:59,791 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[38.8420443534851074] 2018-05-08 07:06:00,024 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[38.8420443534851074] 2018-05-08 07:06:00,024 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 478 in get_voice_client: Connected in 0.3s
+[38.8420443534851074] 2018-05-08 07:06:00,024 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 479 in get_voice_client: Connected to SGG Community Discord/Music 1 🎵
+[38.8425316810607910] 2018-05-08 07:06:00,025 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[38.8430311679840088] 2018-05-08 07:06:00,025 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 531 in reconnect_voice_client: Reconnected voice client on "SGG Community Discord" to "Music 1 🎵"
+[781.2438511848449707] 2018-05-08 07:18:22,426 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 169423295089868800/SGG PRO BEAST#1383 on SGG Community Discord/Music 1 🎵 -> [JOIN, CONNECT, MUTE]
+[781.2443611621856689] 2018-05-08 07:18:22,426 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2949 in on_voice_state_update: 169423295089868800/SGG PRO BEAST#1383 has joined SGG Community Discord/Music 1 🎵
+[781.2448379993438721] 2018-05-08 07:18:22,427 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2977 in on_voice_state_update: Unpausing in SGG Community Discord/Music 1 🎵
+[787.9058828353881836] 2018-05-08 07:18:29,088 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 169423295089868800/SGG PRO BEAST#1383 on SGG Community Discord/Music 1 🎵 -> [LEAVE, DISCONNECT]
+[787.9063942432403564] 2018-05-08 07:18:29,088 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2949 in on_voice_state_update: 169423295089868800/SGG PRO BEAST#1383 has left SGG Community Discord/Music 1 🎵
+[787.9068822860717773] 2018-05-08 07:18:29,089 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2987 in on_voice_state_update: Pausing in SGG Community Discord/Music 1 🎵 (empty channel)
+[1180.4139206409454346] 2018-05-08 07:25:01,596 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 169423295089868800/SGG PRO BEAST#1383 on SGG Community Discord/Music 1 🎵 -> [JOIN, CONNECT]
+[1180.4144206047058105] 2018-05-08 07:25:01,597 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2949 in on_voice_state_update: 169423295089868800/SGG PRO BEAST#1383 has joined SGG Community Discord/Music 1 🎵
+[1180.4149205684661865] 2018-05-08 07:25:01,597 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2977 in on_voice_state_update: Unpausing in SGG Community Discord/Music 1 🎵
+[1234.4887778759002686] 2018-05-08 07:25:55,671 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2734 in on_message: 169423295089868800/SGG PRO BEAST#1383: .sggskip
+[1234.5277421474456787] 2018-05-08 07:25:55,710 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[1237.0695838928222656] 2018-05-08 07:25:58,252 - DEBUG - musicbot.entry | In entry.py::MainThread(2592), line 54 in get_ready_future: Created future for None
+[1237.0705835819244385] 2018-05-08 07:25:58,253 - INFO - musicbot.entry | In entry.py::MainThread(2592), line 220 in _really_download: Download started: https://youtube.com/watch?v=jUqN1Jfw1cA
+[1239.0564267635345459] 2018-05-08 07:26:00,239 - DEBUG - musicbot.entry | In entry.py::MainThread(2592), line 54 in get_ready_future: Created future for None
+[1240.1389396190643311] 2018-05-08 07:26:01,321 - INFO - musicbot.entry | In entry.py::MainThread(2592), line 230 in _really_download: Download complete: https://youtube.com/watch?v=jUqN1Jfw1cA
+[1240.1419396400451660] 2018-05-08 07:26:01,324 - DEBUG - musicbot.player | In player.py::MainThread(2592), line 269 in get_mean_volume: Calculating mean volume of audio_cache\youtube-jUqN1Jfw1cA-Sebastian_Carter_-_Angels.m4a
+[1241.0150506496429443] 2018-05-08 07:26:02,197 - DEBUG - musicbot.player | In player.py::MainThread(2592), line 290 in get_mean_volume: Calculated mean volume as -9.6
+[1241.0150506496429443] 2018-05-08 07:26:02,197 - FFMPEG - musicbot.player | In player.py::MainThread(2592), line 330 in _play: Creating player with options: -nostdin -af "volume=-0.0dB" audio_cache\youtube-jUqN1Jfw1cA-Sebastian_Carter_-_Angels.m4a
+[1241.0245511531829834] 2018-05-08 07:26:02,207 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 825 in serialize_queue: Serializing queue for 405127192767627264
+[1241.0255515575408936] 2018-05-08 07:26:02,208 - DEBUG - musicbot.bot | In bot.py::MainThread(2592), line 868 in write_current_song: Writing current song for 405127192767627264
+[1291.3093197345733643] 2018-05-08 07:26:52,491 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 169423295089868800/SGG PRO BEAST#1383 on SGG Community Discord/Music 1 🎵 -> [LEAVE, DISCONNECT]
+[1291.3093197345733643] 2018-05-08 07:26:52,491 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2949 in on_voice_state_update: 169423295089868800/SGG PRO BEAST#1383 has left SGG Community Discord/Music 1 🎵
+[1291.3103120326995850] 2018-05-08 07:26:52,492 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2987 in on_voice_state_update: Pausing in SGG Community Discord/Music 1 🎵 (empty channel)
+[3173.8882963657379150] 2018-05-08 07:58:15,070 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2734 in on_message: 169423295089868800/SGG PRO BEAST#1383: .sggskip
+[3173.8896715641021729] 2018-05-08 07:58:15,072 - ERROR - musicbot.bot | In bot.py::MainThread(2592), line 2886 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\probe\Desktop\Muisc bot\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\probe\Desktop\Muisc bot\MusicBot\musicbot\bot.py", line 2195, in cmd_skip
+    math.ceil(self.config.skip_ratio_required / (1 / num_voice))  # Number of skips from config ratio
+ZeroDivisionError: division by zero
+[16149.3144545555114746] 2018-05-08 11:34:30,497 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 2734 in on_message: 169423295089868800/SGG PRO BEAST#1383: .sgghelp
+[21298.6411526203155518] 2018-05-08 13:00:19,823 - INFO - musicbot.bot | In bot.py::MainThread(2592), line 1065 in on_resumed: 
+Reconnected to discord.
+
+[26736.5935263633728027] 2018-05-08 14:30:57,776 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 405405776262332418/SGG Gongo#3495 on SGG Community Discord/Music 2 🎵 -> [CONNECT, MUTE, MUTE]
+[26761.5079584121704102] 2018-05-08 14:31:22,690 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 415062217596076033/Rythm Canary#8406 on SGG Community Discord/Music 2 🎵 -> [CONNECT]
+[26763.5024898052215576] 2018-05-08 14:31:24,685 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[27118.7682619094848633] 2018-05-08 14:37:19,950 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 405405776262332418/SGG Gongo#3495 on SGG Community Discord/Music 2 🎵 -> [DISCONNECT]
+[27237.5797309875488281] 2018-05-08 14:39:18,762 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 415062217596076033/Rythm Canary#8406 on SGG Community Discord/Music 2 🎵 -> [DISCONNECT]
+[31497.2817723751068115] 2018-05-08 15:50:18,464 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 339338375075201025/DynasticHydra12#0759 on SGG Community Discord/BR Voice 🔊 -> [CONNECT]
+[31500.0997323989868164] 2018-05-08 15:50:21,282 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 339338375075201025/DynasticHydra12#0759 on SGG Community Discord/BR Voice 🔊 -> [DISCONNECT]
+[33271.1934237480163574] 2018-05-08 16:19:52,376 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 383769406221844490/SGG Switch#4034 on SGG Community Discord/Staff Channel 🔊🔒 -> [CONNECT]
+[33272.7967936992645264] 2018-05-08 16:19:53,979 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 383769406221844490/SGG Switch#4034 on SGG Community Discord/Staff Channel 🔊🔒 -> [MUTE]
+[33301.1467444896697998] 2018-05-08 16:20:22,329 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 169423295089868800/SGG PRO BEAST#1383 on SGG Community Discord/Staff Channel 🔊🔒 -> [CONNECT]
+[33313.1327753067016602] 2018-05-08 16:20:34,315 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 383769406221844490/SGG Switch#4034 on SGG Community Discord/Staff Channel 🔊🔒 -> [DISCONNECT]
+[33339.7794451713562012] 2018-05-08 16:21:00,962 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 169423295089868800/SGG PRO BEAST#1383 on SGG Community Discord/Staff Channel 🔊🔒 -> [DISCONNECT]
+[37028.1457421779632568] 2018-05-08 17:22:29,328 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 441110608528670721/SGG killer m3rk#3933 on SGG Community Discord/BR Voice 🔊 -> [CONNECT, MUTE]
+[37046.1530218124389648] 2018-05-08 17:22:47,335 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 441110608528670721/SGG killer m3rk#3933 on SGG Community Discord/BR Voice 🔊 -> [UNMUTE]
+[37053.2546238899230957] 2018-05-08 17:22:54,437 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 441110608528670721/SGG killer m3rk#3933 on SGG Community Discord/BR Voice 🔊 -> [MUTE]
+[37450.4319756031036377] 2018-05-08 17:29:31,614 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 339338375075201025/DynasticHydra12#0759 on SGG Community Discord/BR Voice 🔊 -> [CONNECT]
+[37452.8989336490631104] 2018-05-08 17:29:34,081 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 430520284236218378/SGG Synk#2289 on SGG Community Discord/BR Voice 🔊 -> [CONNECT, MUTE]
+[37456.3752324581146240] 2018-05-08 17:29:37,557 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 430520284236218378/SGG Synk#2289 on SGG Community Discord/BR Voice 🔊 -> [UNMUTE]
+[37476.6388490200042725] 2018-05-08 17:29:57,821 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 430520284236218378/SGG Synk#2289 on SGG Community Discord/BR Voice 🔊 -> [MUTE]
+[37567.3628816604614258] 2018-05-08 17:31:28,545 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 171140671673991168/SGG Jesus#1315 on SGG Community Discord/BR Voice 🔊 -> [CONNECT]
+[37573.7394254207611084] 2018-05-08 17:31:34,922 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 430520284236218378/SGG Synk#2289 on SGG Community Discord/BR Voice 🔊 -> [UNMUTE]
+[37588.1621017456054688] 2018-05-08 17:31:49,344 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 171140671673991168/SGG Jesus#1315 on SGG Community Discord/BR Voice 🔊 -> [MUTE]
+[37588.9574241638183594] 2018-05-08 17:31:50,140 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 430520284236218378/SGG Synk#2289 on SGG Community Discord/BR Voice 🔊 -> [MUTE]
+[37610.4172220230102539] 2018-05-08 17:32:11,599 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 438740922528956436/SGG Wolf#8823 on SGG Community Discord/BR Voice 🔊 -> [CONNECT]
+[37629.1711828708648682] 2018-05-08 17:32:30,353 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 438740922528956436/SGG Wolf#8823 on SGG Community Discord/BR Voice 🔊 -> [DISCONNECT]
+[37639.7910926342010498] 2018-05-08 17:32:40,973 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 438740922528956436/SGG Wolf#8823 on SGG Community Discord/BR Voice 🔊 -> [CONNECT]
+[37644.7045826911926270] 2018-05-08 17:32:45,887 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 430520284236218378/SGG Synk#2289 on SGG Community Discord/BR Voice 🔊 -> [UNMUTE]
+[37655.2346127033233643] 2018-05-08 17:32:56,417 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 228317444068999178/SGG TinyTerrorX#5210 on SGG Community Discord/BR Voice 🔊 -> [CONNECT]
+[37659.9560143947601318] 2018-05-08 17:33:01,138 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2592), line 2938 in on_voice_state_update: Voice state update for 228317444068999178/SGG TinyTerrorX#5210 on SGG Community Discord/BR Voice 🔊 -> [MUTE]

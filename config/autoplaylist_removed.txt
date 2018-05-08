@@ -1,0 +1,24 @@
+# Entry removed Tue May  8 18:30:03 2018
+# Reason: ERROR: ZBsFntczDoM: YouTube said: This video is unavailable.
+https://youtube.com/watch?v=ZBsFntczDoM
+
+################################
+
+# Entry removed Tue May  8 18:30:04 2018
+# Reason: ERROR: C8uAc-oCtR8: YouTube said: This video is unavailable.
+https://youtube.com/watch?v=C8uAc-oCtR8
+
+################################
+
+# Entry removed Tue May  8 18:55:31 2018
+# Reason: ERROR: sztK_qd1Pjc: YouTube said: This video is not available.
+https://youtube.com/watch?v=sztK_qd1Pjc
+
+################################
+
+# Entry removed Tue May  8 18:59:55 2018
+# Reason: ERROR: fQPS2sk1VTY: YouTube said: This video contains content from UMG, who has blocked it on copyright grounds.
+https://youtube.com/watch?v=fQPS2sk1VTY
+
+################################
+
